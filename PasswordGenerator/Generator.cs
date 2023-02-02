@@ -51,7 +51,7 @@ namespace PasswordGenerator
             return RandomChar.character;
         }
 
-        //Generate a password string from random characters with size of users password length selection
+        //Generate a password string from random characters whose size is selection for users password length
         public string RandomPassword(int isPasswordLength)
         {
             var password = "";
