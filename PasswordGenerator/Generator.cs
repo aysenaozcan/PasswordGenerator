@@ -37,6 +37,10 @@ namespace PasswordGenerator
                     CharList.Add(character);
                 }
             }
+            else
+            {
+                Console.WriteLine("Password can not produced because you sayed no all question.");
+            }
             return CharList;
         }
 
